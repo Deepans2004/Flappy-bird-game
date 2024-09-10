@@ -115,7 +115,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         g.drawImage(birdImg, bird.x, bird.y, bird.width, bird.height, null);
 
 
-        for (int i = 0; i < pipes.size(); i++) {
+       for (int i = 0; i < pipes.size(); i++) {
             Pipe pipe = pipes.get(i);
             g.drawImage(pipe.img, pipe.x, pipe.y, pipe.width, pipe.height, null);
         }
